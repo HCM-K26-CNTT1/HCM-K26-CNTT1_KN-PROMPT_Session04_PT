@@ -64,17 +64,6 @@ Trình bày bằng tiếng Việt, rõ ràng, ngắn gọn.
 
 Em lựa chọn **Giải pháp 2** vì có quy trình xử lý theo từng giai đoạn, điều kiện rõ ràng và khả năng kiểm soát lỗi tốt hơn. Đặc biệt, việc duy trì kết quả giữa các bước giúp hạn chế đứt gãy ngữ cảnh.
 
-### **Giải thích Prompt theo CREATE**
-
-| Thành phần   | Nội dung                                                           |
-| ------------ | ------------------------------------------------------------------ |
-| C – Context  | Bối cảnh cửa hàng online xử lý đơn hàng.                           |
-| R – Role     | Chuyên viên xử lý đơn hàng.                                        |
-| E – Explicit | Quy định rõ 3 bước và điều kiện xử lý.                             |
-| A – Action   | Kiểm tra, tính tiền và phân loại đơn hàng.                         |
-| T – Tone     | Ngắn gọn, rõ ràng, chuyên nghiệp.                                  |
-| E – Extras   | Không tự suy đoán, phát hiện lỗi và duy trì dữ liệu giữa các bước. |
-
 ## **4. Kết quả chạy thử**
 
 **Input:**
